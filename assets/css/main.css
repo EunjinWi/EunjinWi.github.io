@@ -18180,7 +18180,7 @@ html body .md-typeset .headerlink {
 }
 
 .td-toc {
-    border-left: 1px solid #dee2e6;
+    border-left: 1px solid #f2edf7 /*원래는 #dee2e6*/;
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
     -ms-flex-order: 2;
