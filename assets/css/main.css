@@ -274,7 +274,7 @@ sup {
     top: -.5em
 }
 
-/*상단 글 경로, 오른쪽 사이드바 상단 글씨*/
+/*진보라 > 연보라 반전 글씨*/
 a {
     color: #8d69c2;
     text-decoration: none;
@@ -283,7 +283,7 @@ a {
 }
 
 a:hover {
-    color: #614885;
+    color: #594478;
     text-decoration: none
 }
 
