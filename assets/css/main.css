@@ -70,12 +70,13 @@ excluded_in_search: true
 .gh-source__fact:first-child:before {
     display: none;
 }
+/*왼쪽 sidebar*/
 .gh-source-file {
     display: inline-block;
     margin: 1em .5em 1em 0;
     padding-right: .5rem;
     border-radius: .2rem;
-    background-color: rgba(0, 0, 0, .07);
+    background-color: rgba(213, 210, 217, 0.07);/*배경색 변경. 원래: rgba(0,0,0,0.07)*/
     font-size: 1.28rem;
     list-style-type: none;
     cursor: pointer;
@@ -273,15 +274,16 @@ sup {
     top: -.5em
 }
 
+/*상단 글 경로*/
 a {
-    color: #3176d9;
+    color: #9e6be8;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #1e53a0;
+    color: #55397d;
     text-decoration: none
 }
 
@@ -18181,7 +18183,7 @@ html body .md-typeset .headerlink {
 
 /*오른쪽 sidebar*/
 .td-toc {
-    border-left: 1px solid #dee2e6 /*#f2edf7*/;
+    border-left: 1px solid #dee2e6 /*왼쪽 선*/;
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
     -ms-flex-order: 2;
@@ -18225,7 +18227,7 @@ html body .md-typeset .headerlink {
     color: #888
 }
 
-/*오른쪽 sidebar 상단 글씨*/
+/*오른쪽 sidebar 하단 회색 글씨*/
 .td-toc #TableOfContents a:hover {
     color: #614885 /*찐보라. 원래: #72a1e5*/;
     text-decoration: none
