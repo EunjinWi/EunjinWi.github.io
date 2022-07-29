@@ -274,16 +274,16 @@ sup {
     top: -.5em
 }
 
-/*상단 글 경로*/
+/*상단 글 경로, 오른쪽 사이드바 상단 글씨*/
 a {
-    color: #9e6be8;
+    color: #8d69c2;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #55397d;
+    color: #614885;
     text-decoration: none
 }
 
