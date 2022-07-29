@@ -70,12 +70,13 @@ excluded_in_search: true
 .gh-source__fact:first-child:before {
     display: none;
 }
+/*왼쪽 sidebar*/
 .gh-source-file {
     display: inline-block;
     margin: 1em .5em 1em 0;
     padding-right: .5rem;
     border-radius: .2rem;
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: rgba(0, 0, 0, 0.07);/*배경색 변경. rgba(213, 210, 217, 0.07)*/
     font-size: 1.28rem;
     list-style-type: none;
     cursor: pointer;
