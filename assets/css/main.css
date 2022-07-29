@@ -18108,7 +18108,7 @@ html body .md-typeset .headerlink {
 }
 
 .td-sidebar-nav a:hover {
-    color: #72a1e5;
+    color: #614885 /*원래: #72a1e5*/;
     text-decoration: none
 }
 
